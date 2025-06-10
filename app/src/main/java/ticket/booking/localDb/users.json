@@ -1,0 +1,74 @@
+[
+  {
+    "userId": "user1",
+    "name": "John Doe",
+    "password": "password123",
+    "hashPassword": "5f4dcc3b5aa765d61d8327deb882cf99",
+    "ticketsBooked": [
+      {
+        "source": "Banglore",
+        "destination": "Delhi",
+        "date_of_travel": "2023-06-06T18:30:00z",
+        "train": {
+          "train_id": "bacs",
+          "train_no":"12345",
+          "seats": [
+            [0,0,0],
+            [0,0,0],
+            [0,0,0],
+            [0,0,0]
+          ],
+          "stations": {
+            "Banglore": "13:50:30",
+            "Jaipur": "13:50:00",
+            "Delhi": "13:50:00"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "userId": "user2",
+    "name": "Jane Smith",
+    "password": "securepass",
+    "hashPassword": "7c6a180b36896a0a8c02787eeafb0e4c",
+    "ticketsBooked": [ {
+      "source": "Kanpur",
+      "destination": "CST",
+      "date_of_travel": "2023-02-08T18:30:00z"
+    }]
+  },
+  {
+    "userId": "user3",
+    "name": "Michael Johnson",
+    "password": "mikepass2024",
+    "hashPassword": "6c63212ab48e8401eaf6b59b95d816a9",
+    "ticketsBooked": [ {
+      "source": "Pune",
+      "destination": "Lucknow",
+      "date_of_travel": "2023-07-08T18:30:00z"
+    }]
+  },
+  {
+    "userId": "user4",
+    "name": "Emily Wilson",
+    "password": "emily1234",
+    "hashPassword": "8b1a9953c4611296a827abf8c47804d7",
+    "ticketsBooked": [ {
+      "source": "Mathura",
+      "destination": "Bhiwandi",
+      "date_of_travel": "2023-05-08T18:30:00z"
+    }]
+  },
+  {
+    "userId": "user5",
+    "name": "Robert Brown",
+    "password": "robert2025",
+    "hashPassword": "01cfcd4f6b8770febfb40cb906715822",
+    "ticketsBooked": [ {
+      "source": "Kalyan",
+      "destination": "Thane",
+      "date_of_travel": "2023-11-08T18:30:00z"
+    }]
+  }
+]
