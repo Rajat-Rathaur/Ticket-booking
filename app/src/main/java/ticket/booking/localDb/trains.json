@@ -1,7 +1,7 @@
 [
   {
-    "trainNumber": "12001",
-    "trainName": "Shatabdi Express",
+    "train_id": "bacs",
+    "train_no": 12345,
     "seats": [
       [0,0,0,0,0,0],
       [0,0,0,0,0,0],
@@ -9,19 +9,19 @@
       [0,0,0,0,0,0]
     ],
     "station_times": {
-      "Delhi": "10:00:00",
-      "Jaipur": "12:30:00",
-      "Agra": "14:00:00"
+      "bangalore": "13:50:00",
+      "jaipur": "13:50:00",
+      "delhi": "13:50:00"
     },
-    "statiosnNames": [
-      "Delhi",
-      "Jaipur",
-      "Agra"
+    "stations": [
+      "bangalore",
+      "jaipur",
+      "delhi"
     ]
   },
   {
-    "trainNumber": "12951",
-    "trainName": "Mumbai Rajdhani",
+    "train_id": "bacs",
+    "train_no": 12345,
     "seats": [
       [0,0,0,0,0,0],
       [0,0,0,0,0,0],
@@ -29,74 +29,14 @@
       [0,0,0,0,0,0]
     ],
     "station_times": {
-      "Mumbai": "16:30:00",
-      "Vadodara": "21:00:00",
-      "Delhi": "08:35:00"
+      "bangalore": "13:50:00",
+      "jaipur": "13:50:00",
+      "delhi": "13:50:00"
     },
-    "statiosnNames": [
-      "Mumbai",
-      "Vadodara",
-      "Delhi"
-    ]
-  },
-  {
-    "trainNumber": "12627",
-    "trainName": "Karnataka Express",
-    "seats": [
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0]
-    ],
-    "station_times": {
-      "Bangalore": "19:20:00",
-      "Nagpur": "04:00:00",
-      "Delhi": "07:40:00"
-    },
-    "statiosnNames": [
-      "Bangalore",
-      "Nagpur",
-      "Delhi"
-    ]
-  },
-  {
-    "trainNumber": "12301",
-    "trainName": "Kolkata Rajdhani",
-    "seats": [
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0]
-    ],
-    "station_times": {
-      "Kolkata": "16:55:00",
-      "Patna": "02:00:00",
-      "Delhi": "10:05:00"
-    },
-    "statiosnNames": [
-      "Kolkata",
-      "Patna",
-      "Delhi"
-    ]
-  },
-  {
-    "trainNumber": "11013",
-    "trainName": "Coimbatore Express",
-    "seats": [
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0],
-      [0,0,0,0,0,0]
-    ],
-    "station_times": {
-      "Mumbai": "22:35:00",
-      "Pune": "02:30:00",
-      "Coimbatore": "06:50:00"
-    },
-    "statiosnNames": [
-      "Mumbai",
-      "Pune",
-      "Coimbatore"
+    "stations": [
+      "bangalore",
+      "jaipur",
+      "delhi"
     ]
   }
 ]
